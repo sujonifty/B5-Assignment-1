@@ -34,7 +34,7 @@ type is more flexible than interface and can be used to create complex types.
 | ⚙️ Performance                      | Slightly more optimized during compile | More flexible for complex type definitions |
 
 
-#✅ When Should You Use What? 
+#  ✅ When Should You Use What? 
 
 | Scenario                                          | Use          |
 |---------------------------------------------------|--------------|
