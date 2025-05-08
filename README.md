@@ -10,5 +10,6 @@ An interface defines the structure of an object. It is commonly used with classe
   name: string;
   age: number;
 }
+```
 
 Interfaces are ideal for describing the shape of an object, especially when working with object-oriented programming.
