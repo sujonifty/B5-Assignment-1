@@ -23,3 +23,10 @@ A type is a type alias, which means it can represent not only object shapes but 
 };
 ```
 type is more flexible than interface and can be used to create complex types.
+
+| 🆚 Interface vs Type: Key Differences | Interface                      | Type Alias                       |
+|---------------------------------------|---------------------------------|-----------------------------------|
+| 🔁 Extension                        | Supports `extends` for inheritance | Uses intersection (`&`) for combining types |
+| 🔄 Declaration Merging              | ✅ Supported                     | ❌ Not supported                  |
+| 🧱 Use Cases                        | Best for object and class structures | Best for primitives, unions, and functions |
+| ⚙️ Performance                      | Slightly more optimized during compile | More flexible for complex type definitions |
