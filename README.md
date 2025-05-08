@@ -32,3 +32,14 @@ type is more flexible than interface and can be used to create complex types.
 | 🔄 Declaration Merging              | ✅ Supported                     | ❌ Not supported                  |
 | 🧱 Use Cases                        | Best for object and class structures | Best for primitives, unions, and functions |
 | ⚙️ Performance                      | Slightly more optimized during compile | More flexible for complex type definitions |
+
+
+#✅ When Should You Use What? 
+
+| Scenario                                          | Use          |
+|---------------------------------------------------|--------------|
+| Defining object shapes or class contracts         | `interface`  |
+| Need union or intersection types                  | `type`       |
+| Declaration merging is necessary                  | `interface`  |
+| Representing primitives or functions              | `type`       |
+| Working with external libraries (often preferred) | `interface`  |
