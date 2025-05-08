@@ -13,3 +13,13 @@ An interface defines the structure of an object. It is commonly used with classe
 ```
 
 Interfaces are ideal for describing the shape of an object, especially when working with object-oriented programming.
+
+# What is a Type?
+A type is a type alias, which means it can represent not only object shapes but also union types, intersections, primitives, tuples, and more.
+
+```type User = {
+  name: string;
+  age: number;
+};
+```
+type is more flexible than interface and can be used to create complex types.
