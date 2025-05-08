@@ -1,7 +1,7 @@
 # Assignment_01
 
 
-# Differences Between Interfaces and Types in TypeScript:
+# 🔑Differences Between Interfaces and Types in TypeScript:
 
 # Introduction:
 TypeScript adds types to JavaScript.This helps find errors early.It makes apps stronger and easier to grow.Interface and type are common in TypeScript.They both define how data looks.
@@ -58,7 +58,7 @@ A smart TypeScript developer understands how to leverage both effectively, depen
 
 
 
-# What is the use of the keyof keyword in TypeScript? with an example:
+# 🔑What is the use of the keyof keyword in TypeScript? with an example:
 
 # Introduction:
 TypeScript is well-known for making JavaScript safer, more structured, and easier to manage in large codebases. Among its powerful features, one hidden gem is the keyof keyword. It might look small, but it plays a huge role in making our code type-safe and predictable.
